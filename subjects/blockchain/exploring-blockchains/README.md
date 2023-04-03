@@ -19,7 +19,7 @@ In this course, we will focus on two solutions provided by the Hyperledger proje
 
 ---
 
-## Exercise 1: Private Network
+### Exercise 1: Private Network
 
 Besu in an alternative Ethereum client that is compatible with Ethereum mainnet. It facilitates the deployment of private networks. Will we use the QBFT consensus algorithm, a Proof of Authority Byzantine Fault Tolerant algorithm
 
@@ -54,7 +54,7 @@ Network/
 ├ keys.json
 ```
 
-## Ressources
+### Resources
 
 - [Private network explanation](https://ethereum.org/wiki/private-networks)
 - [Launch a private network with Besu tutorial](https://besu.hyperledger.org/en/stable/Tutorials/Private-Network/Create-QBFT-Network/)
@@ -64,7 +64,7 @@ Network/
 
 ---
 
-## Exercise 2: Clillet
+### Exercise 2: Clillet
 
 The goal of this raid is to create a fully functional command line wallet for a blockchain of your choice. You can choose any of the major alternative blockchains: Solana, Tezos, Poladot, Cosmos... The executable `clillet` must follow and implement the help description below. Our wallet consists of the following subcommands
 
@@ -76,7 +76,7 @@ The goal of this raid is to create a fully functional command line wallet for a 
 
 The documentation must provide an endpoint to connect to a blockchain node of the testnet network with necessary information to create an account to access this endpoint if needed and to retrieve tokens from a faucet.
 
-## Output and functionalities
+### Output and functionalities
 
 ```console
 $ clillet --help
@@ -98,7 +98,6 @@ FLAGS:
     -V, --version
             Prints version information
 
-
 COMMANDS:
    generate                      Generates a new wallet and prints the mnemonic
    import <file>                 Imports a wallet from a file
@@ -106,10 +105,11 @@ COMMANDS:
    connect <endpoint>            Connect to a blockchain node
    balance                       Get the balance for the current loaded wallet
    send <destination> <amount>   sends assets to a destination
-
-## Deliverable
-The project must provide an executable file that complies with the specifications
 ```
+
+### Deliverable
+
+The project must provide an executable file that complies with the specifications
 
 ---
 
